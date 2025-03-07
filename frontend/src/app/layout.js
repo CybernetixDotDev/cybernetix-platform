@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         <nav className="bg-gray-800 p-4 text-white">
           <ul className="flex space-x-4">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/profile">Profile</Link></li>
+            
           </ul>
         </nav>
         <main>{children}</main>
